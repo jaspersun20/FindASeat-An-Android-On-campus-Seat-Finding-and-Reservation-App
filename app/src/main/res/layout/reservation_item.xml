@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/background_with_border"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tvReservationLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snooker Table Club House - Table 1029"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#000"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvReservationTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="17 Nov 2021, 16:50-18:50"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#000"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvReservationStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#000"
+        android:padding="8dp" />
+
+    <!-- You can add more UI elements here -->
+</LinearLayout>

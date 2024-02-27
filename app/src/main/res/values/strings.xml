@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FinaASeat</string>
+    <string name="usc_id_format">USC ID: %1$s</string>
+    <string name="rule_reminder">*You can only reserve TWO hours of seating a day across in total
+        across all buildings</string>
+
+</resources>

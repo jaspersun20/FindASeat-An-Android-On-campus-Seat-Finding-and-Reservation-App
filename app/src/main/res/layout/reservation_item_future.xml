@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_with_border"
+    android:layout_margin="8dp">
+
+    <!-- Horizontal LinearLayout to wrap TextViews and Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvReservationLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leavey - indoor"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="#000"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/tvReservationTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17 Nov 2021, 16:50-18:50"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="#000"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/tvReservationStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complete"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="#000"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <!-- Edit Button -->
+            <Button
+                android:id="@+id/edit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_selector"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="8dp" />
+
+            <!-- Cancel Button -->
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:background="@drawable/button_selector"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
